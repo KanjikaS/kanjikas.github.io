@@ -15,6 +15,11 @@
   /* border-radius: 50% !important; */
 }
 
+.pic {
+  width : 120px;
+  /* height : 100px; */
+  border-radius : 100%;
+}
 .profile-pic image {
   width: 70px;
   /* height: auto; */
@@ -51,11 +56,11 @@
 }
 
 .github {
-  color: black;
+  color: #000000;
 }
 
 .linkedin {
-  color: #0077b5;
+  color: #1254ac;
 }
 
 .angellist {
@@ -68,15 +73,15 @@
 }
 
 .linkedin:hover {
-  background-color: #0077b5;
+  background-color: eb2a1c;
 }
 
 .angellist:hover {
-  background-color: grey;
+  background-color: eb2a1c;
 }
 
 .github:hover {
-  background-color: black;
+  background-color: eb2a1c;
 }
 
 /* Buttons - Read Me, Contact Us */
@@ -85,7 +90,7 @@
   position: relative;
   padding: 11px 35px;
   background: #fff;
-  color: #00796b;
+  color:#f11b49;
   border: 2px solid #fff;
   font-weight: 600;
   font-size: 15px;
@@ -116,7 +121,7 @@
 }
 
 .contactme:hover{
-  color: #00796b;
+  color: #dbb126;
   background-color: white;
 }
 /* main body */
@@ -140,7 +145,7 @@ body {
 } */
 
 a {
-  color: #004d40;
+  color: #5c0115;
 }
 
 /* main blockqoute */
@@ -237,7 +242,7 @@ ul.side-nav li {
 
 ul.side-nav.fixed a {
   box-sizing: content-box;
-  color: rgb(16, 202, 56);
+  color: #ff453c !important;
   display: block;
   line-height: 100%;
   padding: 10px 0 12px;
@@ -348,7 +353,7 @@ h3 {
 }
 
 #intro.section .underline {
-  border-bottom: 5px solid #24305e;
+  border-bottom: 5px solid #5e2424;
 }
 
 #intro.section .teal {
@@ -356,7 +361,7 @@ h3 {
 }
 
 .overlay {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgb(255 127 63 / 84%);
   height: 100%;
   left: 0;
   position: absolute;
@@ -367,7 +372,7 @@ h3 {
 .waves-effect.waves-blue .waves-ripple {
   /* The alpha value allows the text and background color
    of the button to still show through. */
-  background-color: rgba(33, 150, 243, 0.2);
+  background-color: rgba(236, 12, 12, 0.2);
 }
 
 .card {
@@ -383,12 +388,12 @@ h3 {
 
 .card li a {
   margin-right: 0;
-  color: #333;
-  border-bottom: 2px solid #ffab40;
+  color: #5a1c1c;
+  border-bottom: 2px solid #cc7b62;
 }
 
 .card li a:hover {
-  color: #333;
+  color: #ac2525;
   font-weight: 500;
 }
 
@@ -414,7 +419,7 @@ h3 {
 }
 
 #experience .card-action {
-  background-color: rgba(0, 0, 0, 0.02);
+  background-color: rgba(14, 13, 13, 0.02);
   border: none;
 }
 
@@ -428,7 +433,7 @@ h3 {
 
 .card-action span {
   font-size: 85%;
-  color: #666;
+  color: #9b3a3a;
 }
 
 .card ul {
@@ -442,7 +447,7 @@ h3 {
 }
 
 .card ul li li {
-  color: #666;
+  color: #6d3030;
   font-size: 13px;
 }
 
@@ -473,7 +478,7 @@ a.hoverline {
 } */
 
 a.hoverline:hover {
-  border-bottom: 3px solid #004d40 !important;
+  border-bottom: 3px solid #e7260d !important;
 }
 
 #skills .card.large {
@@ -543,13 +548,13 @@ small {
 }
 
 .grey-text {
-  color: #666 !important;
+  color: #b84d4d !important;
 }
 
 /* main .teal-text */
 
 .teal-text {
-  color: #008073 !important;
+  color: #eb2a1c!important;
 }
 
 /* .teal-text {
@@ -559,7 +564,7 @@ small {
 /* .teal */
 
 .teal {
-  background-color: #008073 !important;
+  background-color: #ff6023e0  !important;
 }
 
 /* .teal {
@@ -602,7 +607,7 @@ small {
     position: absolute;
   }
   nav a.button-collapse, nav a.button-collapse i {
-    color: #009688;
+    color: #fcff3d;
     height: 56px;
     line-height: 56px;
   }
